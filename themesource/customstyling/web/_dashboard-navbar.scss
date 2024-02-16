@@ -1,0 +1,255 @@
+$t: 1s;
+$d: 0.08em;
+$n: 3;
+$e: cubic-bezier(0.860, 0.000, 0.070, 1.000);
+$front: white;
+$back: lightblue;
+
+
+.sloganbox {
+    font-family: Futura, sans-serif;
+    font-weight: 900;
+    font-size: 65px;
+    padding: 100px;
+    padding-left: 100px;
+    position: absolute;
+    top: 20vh;
+    color: $front;
+
+
+
+    @keyframes myAnim {
+        0% {
+            opacity: 0;
+            transform: translateX(-250px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .slogantext {
+        animation: myAnim 1s ease 0s 1 normal forwards;
+        text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+}
+
+
+.navbar-anonymous {
+    //background-color: rgba(245, 245, 220, 0.807);
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+
+    h5 {
+        color: #ab8034;
+        font-family: 'Raleway', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        // line-height: 72px;
+        margin: 0 0 24px;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 10%;
+
+        &:hover {
+            color: #daa520;
+            // text-decoration: underline;
+        }
+
+
+    }
+
+}
+
+.joinvolunteerbox {
+    position: absolute;
+    top: 39vh;
+    right: 15vh;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 280px;
+    height: 250px;
+    border-radius: 5px;
+
+    @keyframes myAnim1 {
+        0% {
+            opacity: 0;
+            transform: translateY(250px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    animation: myAnim1 1s ease 0s 1 normal forwards;
+
+    h5 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        color: #333;
+        text-transform: capitalize;
+        padding-top: 12%;
+
+        &:hover {
+            text-decoration: none;
+        }
+
+    }
+
+    .volunteertext {
+        padding: 2%;
+        color: #333;
+        // color: #fff;
+        font-family: 'Muli', sans-serif;
+        // margin-bottom: 15px;
+    }
+
+
+}
+
+.joinvolunteerbox1 {
+    position: absolute;
+    top: 30vh;
+    right: 15vh;
+    background-color: rgba(255, 255, 255, 0.181);
+    width: 550px;
+    height: 370px;
+    border-radius: 5px;
+    padding: 15px;
+
+    @keyframes myAnim1 {
+        0% {
+            opacity: 0;
+            transform: translateY(250px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    animation: myAnim1 1s ease 0s 1 normal forwards;
+
+    h5 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 22px;
+        font-weight: bold;
+        color: #333;
+        text-transform: capitalize;
+        padding-top: 12%;
+
+        &:hover {
+            text-decoration: none;
+        }
+
+    }
+
+    .volunteertext1 {
+        padding: 2%;
+        color: #333;
+        // color: #fff;
+        font-family: 'Muli', sans-serif;
+        // margin-bottom: 15px;
+    }
+
+
+}
+
+.volunteer-btn {
+    appearance: none;
+    background-color: #ab8034;
+    border: 1px solid #ab8034;
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 5px 10px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.volunteer-btn:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+}
+
+.volunteer-btn:hover {
+    background-color: #daa520;
+    color: #fff;
+    border: 1px solid #daa520;
+}
+
+.volunteer-btn:focus {
+    box-shadow: #c9963e;
+    outline: none;
+}
+
+.volunteer-btn:disabled {
+    background-color: #ceb58b;
+    border-color: #ceb58b;
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+
+.volunteer-btn:active {
+    background-color: #ab8034;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.page-bg {
+    background-color: beige;
+}
+
+.loginback {
+    width: 100%;
+    height: 120vh;
+    overflow-y: hidden;
+}
+
+.sloganbox2 {
+    font-family: Futura, sans-serif;
+    font-weight: 900;
+    font-size: 65px;
+    padding: 100px;
+    padding-left: 100px;
+    position: absolute;
+    top: 30vh;
+    color: $front;
+
+
+
+    @keyframes myAnim {
+        0% {
+            opacity: 0;
+            transform: translateX(-250px);
+        }
+
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    .slogantext {
+        animation: myAnim 1s ease 0s 1 normal forwards;
+        text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+}
